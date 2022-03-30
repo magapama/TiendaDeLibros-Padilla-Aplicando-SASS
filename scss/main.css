@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Serif:wght@300&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezadoPpal {
+  background-color: rgba(102, 171, 185, 0.5);
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding: 4px 10px;
+  display: inline-block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.encabezadoPpal img {
+  border: 30px;
+  border-color: blue;
+  border-radius: 50px;
+}
+
+.encabezadoPpal h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #074768;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .encabezadoPpal h1 {
+    font-size: 2rem;
+  }
+}
+
+.encabezadoPpal ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.encabezadoPpal ul li {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: center;
+}
+
+.encabezadoPpal ul li a {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #074768;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.encabezadoPpal ul li a:hover {
+  color: rgba(7, 71, 104, 0.5);
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .encabezadoPpal ul li a {
+    font-size: 0.7rem;
+    margin-left: auto;
+    float: right;
+  }
+}
+
+#slogan {
+  display: inline-block;
+  border: solid;
+  border-color: blue;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#slogan h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #66abb9;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  #slogan h2 {
+    font-size: 1rem;
+  }
+}
+
+#productos {
+  display: inline;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 5px;
+  padding: 20px 20px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#productos h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #66abb9;
+  margin: 15px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  #productos h2 {
+    font-size: 1rem;
+  }
+}
+
+#productos section {
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+}
+
+#productos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 200px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  #productos div {
+    margin-left: 30px;
+  }
+}
+
+#productos a {
+  border: solid;
+  border-color: blue;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 2px;
+}
+
+#boton {
+  background-color: #66abb9;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 20px;
+  margin: 30px;
+  margin-top: 90px;
+  margin-left: 700px;
+  text-align: center;
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-style: bold;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  #boton {
+    margin-left: 50px;
+  }
+}
+
+#boton a {
+  color: whitesmoke;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#footer {
+  background-color: rgba(204, 221, 229, 0.5);
+  padding-left: 10px;
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: rgba(7, 71, 104, 0.5);
+}
+
+#footer div {
+  display: inline-block;
+  margin: 10px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#footer img {
+  border: 30px, solid;
+  border-radius: 50px;
+}
+
+body {
+  background-image: url(../imagenes/white-paper-crumpled-texture-background-free-photo.jpg);
+  background-attachment: fixed;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=main.css.map */
