@@ -3,20 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Libros de Velásquez - Contacto y ubicación de la tienda de libros usados o de segunda mano</title>
-    <meta name="description" content="Dirección, contacto y mapa de la tienda 100% online 'Los Libros de Velásquez'." >
-    <meta name="keywords" content="dirección, ubicación, mapa, telefono, email, Libros de Velásquez, Libros en buen estado, Libros usados, Segunda mano, Excelentes precios, Tienda online, Tienda en línea">
+    <title>Libros de Velásquez - Categoría de Literatura Clásica</title>
+    <meta name="description" content="Categoría - género libros de Literatura Clásica en nuestra tienda online, en donde podrás encontrar diversos títulos a excelentes precios." >
+    <meta name="keywords" content="Literatura, Literatura Clásica, Categoría, género, Libros de Velásquez, Libros en buen estado, Libros usados, Segunda mano, Excelentes precios, Tienda online, Tienda en línea">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./scss/main.css">
   </head>
   <body>
-    
     <nav class="navbar navbar-expand-lg navbar-light sticky-top encabezadoPpal" id="nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imagenes/letra V.jpg" alt="logo Libros Velásquez, letra V en imagen circular" class="w-25 rounded-circle border border-primary">  
+            <img src="imagenes/letra V.jpg" alt="logo Libros Velásquez, letra V en imagen circular" class="w-25 w-25 rounded-circle border border-primary">  
           </a>
-          <h1 class="scale fw-bold text-center">Contacto</h1>
+          <h1 class="scale fw-bold text-center">Literatura Clásica</h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="quienes-somos.html">Quiénes somos</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="categoria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active dropdown-toggle" href="/categoria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categoría
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -52,34 +51,39 @@
         </div>
       </nav>
       <!-- ends nav  -->
-    <!-- comienza direccion -->
-    <div class="container-fluid bg-hoja p-3">
-      <div class="row vh-50 justify-content-around align-items-center">    
-        <div class="col general">
-          <figure>
-            <img class="rounded" src="imagenes/direccion.png" width="50px" height="50px" alt="Dirección"> 
-            <figcaption>Av. Ricardo Cumming 1350, Santiago, RM, Chile.</figcaption>
-          </figure>
-          <figure>
-            <img class="rounded" src="imagenes/telefono.png" width="50px" height="50px" alt="Teléfono"> 
-            <figcaption>Teléf: +56-9-1234-5678</figcaption>
-          </figure> 
-          <figure>
-            <img class="rounded" src="imagenes/email.png" width="50px" height="50px" alt="Email">
-            <figcaption>Email: info@librosvelasquez.cl</figcaption>
-          </figure>
-        </div>
-        <!-- ends direccion -->
-        <!-- inicia mapa -->
-        <div class="col ">
-          <iframe class="rounded border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.762739536906!2d-70.67182448523717!3d-33.42942950381899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c44acf64ace3%3A0xe00082cfdc2556f!2sAv.%20Ricardo%20Cumming%201350%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1644544302693!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div>
+        <img src="./imagenes/literaturaClasica---.jpg" class="img-fluid mx-auto d-block mh-25 img-responsive" alt="literatura Clásica">
+      </div>
+    <!-- comienza lista de categorias  --> 
+    <section class="py-3 text-center bg-hoja">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="textItalic font-monospace mb-3">Títulos disponibles</h2>
+            <h3 class="textoH3 fst-italic font-monospace m-3">Literatura Clásica</h3>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Selecciona el título</option>
+              <option value="1">Cien años de soledad (Gabriel García M.)</option>
+              <option value="2">Romeo y Julieta (William Shakespeare)</option>
+              <option value="3">Cumbres Borrascosas (Emily Brontë)</option>
+            </select>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- ends mapa -->
-     <!--empieza footer-->
-     <div class="py-4 bg-hoja">
-    </div> <!--  div para ajuste de espacio -->
+    </section>
+    <!-- ends lista de categorias  --> 
+    <!-- comienza boton-->
+    <section class="col container-fluid bg-hoja">
+      <div class="row">   
+        <div class=" text-center align-item-center justify-content-center">   
+          <button type="button" class="btn  mb-5">
+            <a href="servicios.html" class="btn btn-gral " role="button">Compra aquí</a>
+          </button> 
+        </div>
+      </div>          
+    </section> 
+    <!-- ends boton-->
+    <!--empieza footer-->
     <footer class="text-center footer-style p-3 mb-2 bg-pie text-white">
       <div class="container">
         <div class="row">
@@ -101,6 +105,4 @@
         </div>
       </div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>

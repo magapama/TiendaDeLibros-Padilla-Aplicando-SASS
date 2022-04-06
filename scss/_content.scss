@@ -2,7 +2,7 @@
 
 
 #slogan{
-    display: inline-block;
+    // display: inline-block;
     border: solid;
     border-color: blue;
     border-radius: 30px;
@@ -96,5 +96,18 @@
         text-decoration: none;
         box-sizing: border-box;
     }
-    
 }
+#parrafo, #parrafo2{
+    h2{
+        text-align: $textCenter; 
+        font-size: $textPqno;
+        color: $keyColor3;
+        margin: 15px;
+        padding: 10px;
+        
+        @media only screen and (min-width:280px) and (max-width:600px){
+        font-size: $textMuyPeqno;            
+        }  
+    } 
+}
+

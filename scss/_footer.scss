@@ -1,5 +1,4 @@
 #footer{
-    background-color: $secondaryColor;
     padding-left: 10px ;
     display: inline-block;
     align-content: center;
@@ -7,12 +6,12 @@
     width: $w-100;
     height: 90px;
     padding-top: 10px;
-    box-sizing: border-box;
+    // box-sizing: border-box;
     
     h3{
         font-family: $fontMain;
         font-size: $textMuyPeqno;
-        color: $keyColor2;
+        color: $malayaSky;
     }
     div{
         display:inline-block;

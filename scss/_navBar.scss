@@ -1,64 +1,28 @@
 .encabezadoPpal{
     background-color: $mainColor;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    padding: 4px 10px ;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-
-    img{
-        border: 30px; 
-        border-color: blue;
-        border-radius: 50px;
-      
-    }
     h1{
-       text-align: $textCenter; 
-       font-size: $textMed;
-       color: $keyColor;
-       @media only screen and (min-width:280px) and (max-width:600px){
-           font-size: $textPqno ;
+        text-align: $textCenter; 
+        font-size: $textMed;
+        color: $keyColor;
+        @media only screen and (min-width:280px) and (max-width:600px){
+            font-size: $textPqno ;
        }
     }
-    
-    ul{
-        display:flex;
-        text-align: $textRight;
-        justify-content: end;
-         
-         li{
-            list-style: none;
-            margin: 10px;
-            padding: 5px;
-            justify-content: end;
-            align-items:right;
-            text-align: center;
-
-            a{
-                font-size: 1rem;
-                font-family: $fontMain;
-                font-weight: 700;
-                text-decoration: none;
-                color: $keyColor;
-                font-size: $textMuyPeqno;
-                text-align: $textRight;
-
-                &:hover{
-                    color:$keyColor2;
-                    font-weight: 900;
-                }
-                @media only screen and (min-width:280px) and (max-width:600px){
-                    font-size: $textMasPeqno ;
-                    margin-left: auto;
-                    float: right;
-                    
-                    
-                }
-            }
-         }
-    }
-
 }
+.menuUl{
+    ul{
+        li, a{
+            color:$keyColor;
+            text-align:$textRight;
+            font-weight: 500;
+
+            &:hover{
+                color: $keyColor2;
+                font-weight: 900;
+            }
+
+        }
+    }
+}
+
+

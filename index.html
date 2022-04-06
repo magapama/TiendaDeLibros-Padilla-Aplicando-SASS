@@ -4,80 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libros de Velasquez</title>
+    <title>Libros de Velásquez - Libros usados en buen estado - Tienda Online</title>
+    <meta name="description" content="Tienda 100% online, en donde podrás encontrar libros usados y/o de segunda mano en muy buenas condiciones y a excelentes precios." >
+    <meta name="keywords" content="Los libros de Velásquez, Libros de Velásquez, Libros en buen estado, Libros usados en buen estado, Libros usados, Segunda mano, Excelentes precios, Tienda online, Tienda en línea">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body> 
-    <div class="contenedor">
-        <div class="encabezadoPpal" id="nav">
-            <nav class="textRight" >
-                <div class="textLeft">
-                    <a href="index.html"><img src="imagenes/letra V.jpg" width="100px" height="100px" alt="Logo Libros de Velasquez"> </a>
-                </div >
-                <h1 class="scale textNegrita textCenter">Los Libros de Velásquez</h1>
-                <div> 
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="./quines-somos.html">Quiénes somos</a></li>
-                        <li><a href="./categoria.html">Categoría</a></li>
-                        <li><a href="./servicios.html">Servicios</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top encabezadoPpal" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/letra V.jpg" alt="logo Libros de Velásquez, letra V en imagen circular" class="w-25 rounded-circle border border-primary">  
+          </a>
+          <h1 class="fw-bold scale">Los Libros de Velásquez</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menuUl " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="quienes-somos.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="categoria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categoría
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./autoayuda.html">Autoayuda y Superación personal</a></li>
+                  <li><a class="dropdown-item" href="./astrologia.html">Astrología y Ciencias ocultas</a></li>
+                  <li><a class="dropdown-item" href="./literClasica.html">Literatura Clásica</a></li>
+                  <li><a class="dropdown-item" href="./literinfantil.html">Literatura Infantil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./precios.html">Lista de precios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="header" id="header">   
-            <header  > 
-                <img src="./imagenes/libros.jpg" width="100%" height="500px" alt="Libros">
-            </header >
-        </div>
-        <section class="scale gradiente seccion__slogan--grande textCenter textNegrita" id="slogan">
-            <div class="seccionSlogan">
-                <h2 class="subrayado">Tienda online de libros de segunda mano.</h2>
+      </nav>
+      <div>
+        <img src="imagenes/libros - copia.jpg" class="img-fluid  img-responsive" alt="imagen de libros abiertos en mesa de  biblioteca y libros apilados" >
+      </div>
+        <section class="scale gradiente gradiente3 " id="slogan">
+            <div>
+                <h2>Tienda online de libros de segunda mano.</h2>
             </div> 
-            <div class="seccionSlogan">
-                <h2 class="border textItalic">"Cambiemos la cultura de consumo y seamos responsables de la huella que dejamos en el planeta".</h2> 
+            <div>
+                <h2 class="textItalic">"Cambiemos la cultura de consumo y seamos responsables de la huella que dejamos en el planeta".</h2> 
             </div> 
         </section>
         <!-- inicia main -->
-        <main class="mainPpal" id="productos">
-            <h2 class="wow flipInX textCenter">Conoce nuestra variedad de libros en excelentes condiciones e insuperables precios.</h2>
-            <section class="wow flipInX seccionCateg textCenter">
+        <main id="productos">
+            <h2 class=" textCenter">Conoce nuestra variedad de libros en excelentes condiciones e insuperables precios.</h2>
+            <section>
                 <div class="transform">
-                    <a href="categoria.html"><img src="imagenes/imagesLite-inf.jpg" width=200px" height="250px" alt="Literarura Infantil"></a>
+                    <a href="categoria.html"><img src="imagenes/imagesLite-inf.jpg" width=200px" height="250px" alt="carátula de libro relacionado a Literarura Infantil"></a>
                 </div>
                 <div class="transform">
-                    <a href="categoria.html"><img src="imagenes/literature.jpg" width=200px" height="250px" alt="literatura"></a>
+                    <a href="categoria.html"><img src="imagenes/literature.jpg" width=200px" height="250px" alt=" carátula de libro relacionado a literatura"></a>
                 </div>
                 <div class="transform">
-                    <a href="categoria.html"><img src="imagenes/astrologia2.jpg" width=200px" height="250px" alt="Astrología"></a>
+                    <a href="categoria.html"><img src="imagenes/astrologia2.jpg" width=200px" height="250px" alt="carátula de libro relacionado a Astrología"></a>
                 </div>  
             </section>
         </main>
         <!-- ends main -->
         <div>
-            <button type="button" class="btn  mb-5" id="boton">
-                <a href="servicios.html" class="btn btn-servicio" role="button">Regístrate aquí</a>
+            <button type="button" class="btn-gral" id="boton">
+                <a href="servicios.html" class="btn" role="button">Regístrate aquí</a>
             </button>
         </div>
         
 
         <!-- inicia footer -->
-        <footer class="pie textCenter" id="footer">
-            <h3 class=" pie ">Síguenos en nuestras Redes Sociales</h3>
-            <div>
-                <a href="https://Facebook.com" target="_blank"><img src="imagenes/fb_icon_325x325.png" width="40px" height="40px" alt="Facebook"></a>
-            </div> 
-            <div>
-                <a href="https://Twitter.com" target="_blank"><img src="imagenes/twitterlogodown.png" width="40px" height="40px" alt="Twitter"></a>
+        <footer class="text-center footer-style p-3 mb-2 bg-pie text-white">
+          <div class="container">
+            <div class="row">
+              <div>
+                <h3>Síguenos en nuestras Redes Sociales.</h3>
+              </div>                
+              <div class="col-md-3 footer-col">
+                <a href="https://Facebook.com" target="_blank"><img class="rounded-circle" src="imagenes/fb_icon_325x325.png" width="40px" height="40px" alt="Facebook"></a>
+              </div>
+              <div class="col-md-3 footer-col">
+                <a href="https://Twitter.com" target="_blank"><img class="rounded-circle" src="imagenes/twitterlogodown.png" width="40px" height="40px" alt="Twitter"></a>
+              </div>
+              <div class="col-md-3 footer-col">
+                <a href="https://instagram.com" target="_blank"><img class="rounded-circle" src="imagenes/IG.png" width="40px" height="40px" alt="Instagram"></a>
+              </div>
+              <div class="col-md-3 footer-col">
+                <a href="https://whatsapp.com" target="_blank"><img class="rounded-circle" src="imagenes/WhatApp.jpg" width="40px" height="40px" alt="Whatsapp"></a>
+              </div>
             </div>
-            <div>
-                <a href="https://instagram.com" target="_blank"><img src="imagenes/IG.png" width="40px" height="40px" alt="Instagram"></a>
-            </div>
-            <div>
-                <a href="https://whatsapp.com" target="_blank"><img src="imagenes/WhatApp.jpg" width="40px" height="40px" alt="Whatsapp"></a>
-            </div>
+          </div>
         </footer>
     </div>
+    <script src="./js/bootstrap.min.js" ></script>
 </body>
 </html> 
